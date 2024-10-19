@@ -1,7 +1,9 @@
+import Smiley from "./components/Smiley"
+
 function App() {
 	return (
-		<main>
-			<p className="text-green-600">Hello</p>
+		<main className="p-5">
+			<Smiley />
 		</main>
 	)
 }
